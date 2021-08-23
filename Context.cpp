@@ -36,6 +36,6 @@ int main()
 	a.sum(value, 26); //Объект L-value
 	A().sum(value, 73);//Анонимный объект R-value
 	b.sum(value, 46); //Константный объект L-value
-	const A().sum(value, 58);//Константный анонимный объект R-value
+	const A().sum(value, 58);//Константный анонимный объект R-value.
 
 }
